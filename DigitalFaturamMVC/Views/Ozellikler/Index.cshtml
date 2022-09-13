@@ -1,0 +1,422 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- ======= özellikler Section ======= -->
+<section id="services" class="services section-bg">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2><strong>ÖZELLİKLER</strong></h2>
+        </div>
+
+        <div class="row">
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-folder"
+                                       alt="Raporlama Sistemi Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Raporlama </strong> Sistemi
+                                </h4><br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cari kartlara ait Hesap
+                                ekstresi, Toplu cari raporu v.b.
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Stok, Depo
+                                Hareketleri,Stok
+                                listeleri raporu v.b.
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Satış raporu ve satış
+                                grafiği
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Kar-Zarar Analizi
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Gün Sonu Raporu
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Toplu stok raporu ve stok
+                                hareketleri raporunu alabilme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Depo hareketleri raporunu
+                                alabilme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Toplu Cari raporu ve cari
+                                işlem raporu alabilme
+                                <br><br>
+
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal1">
+                            <i class="bi bi-folder" alt="Raporlama Sistemi  Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal1"></i>
+                        </a>
+                    </div>
+
+                    <h4 class="title"><a>Raporlama Sistemi</a></h4>
+                    <p class="description">
+                        ✦ Satış raporu ve satış grafiği
+                        </br>
+                        ✦ Kar-Zarar Analizi
+                        </br>
+                        ✦Gün Sonu Raporu...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-card-checklist"
+                                       alt="Fatura Bölümü Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Fatura</strong> Modülü
+                                </h4><br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Alış, Satış ve İade
+                                faturası düzenleme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Standart ve gramajlı ürün
+                                barkod desteği
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> İrsaliyeyi fatura
+                                dönüştürme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Fatura makbuz basımı
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Detaylı alış, satış ve
+                                iade faturası raporlama
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal2">
+                            <i class="bi bi-card-checklist" alt="Fatura Bölümü Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal2"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a>Fatura Bölümü</a></h4>
+                    <p class="description">
+                        ✦ Alış, Satış ve İade faturası düzenleme
+                        </br>
+                        ✦ Standart ve gramajlı ürün barkod desteği...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-bar-chart"
+                                       alt="Stok Takibi Modülü Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Stok Takibi</strong> Modülü
+                                </h4><br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Depo tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Stok kartı Tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Barkodsuz ürünler için
+                                otomatik barkod tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Gramajlı ürünler için
+                                otomatik barkod tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Stok grubu ve birimi
+                                tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Stok kartlarına resim
+                                yükleme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Barkod etiketi basma
+                                (tekli veya toplu)
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Depolar arası virman
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal3">
+                            <i class="bi bi-bar-chart" alt="Stok Takibi Modülü Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal3"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a>Stok Takibi Modülü</a></h4>
+                    <p class="description">
+                        ✦Depo tanımlama
+                        <br>
+                        ✦ Stok kartı Tanımlama
+                        <br>
+                        ✦ Barkodsuz ürünler için otomatik barkod tanımlama...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-list"
+                                       alt="Cari Kart  Modülü Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Cari Kart</strong> Modülü
+                                </h4>
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cari Hesap kartı tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Grup tanımlama
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cariye Stoklu-Stoksuz
+                                Satış
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cariye kasa'dan ödeme ve
+                                tahsilat yapabilme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cariyi borçlandırma ve
+                                alacaklandırma işlemleri
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Tahsilat ve ödeme makbuzu
+                                kesme
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Cari hesap ekstresi
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal4">
+                            <i class="bi bi-list" alt="Cari Kart Modülü Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal4"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a>Cari Kart Modülü</a></h4>
+                    <p class="description">
+                        ✦Cari Hesap kartı tanımlama
+                        <br>
+                        ✦ Grup tanımlama
+                        <br>
+                        ✦ Cariye Stoklu-Stoksuz Satış...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-archive"
+                                       alt="Arşivleme Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Arşivleme</strong>
+                                </h4>
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Minimum 10 yıl boyunca
+                                güvenli bir şekilde arşivleyebilirsiniz.
+
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal5">
+                            <i class="bi bi-archive" alt="Arşivleme Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal5"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a>Arşivleme</a></h4>
+                    <p class="description">✦ Minimum 10 yıl boyunca güvenli bir şekilde arşivleyebilirsiniz...</p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-calendar4-week"
+                                       alt="Arşivleme Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Taslak </strong>Hazırlama
+                                </h4>
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Tıpkı maillerde
+                                oluşturulabildiği gibi taslak hazırlayıp bulundurabilirsiniz.
+
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal6">
+                            <i class="bi bi-calendar4-week" alt="Arşivleme Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal6"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a>Taslak Hazırlama</a></h4>
+                    <p class="description">
+                        ✦Tıpkı maillerde oluşturulabildiği gibi taslak hazırlayıp bulundurabilirsiniz...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-briefcase"
+                                       alt="Arşivleme Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Gönderme</strong>
+                                </h4>
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Fatura işlemlerinizi mail
+                                alma ve gönderme kolaylığında gerçekleştirebilirsiniz.
+
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal7">
+                            <i class="bi bi-briefcase" alt="Arşivleme Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal7"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a> Gönderme</a></h4>
+                    <p class="description">
+                        ✦ Fatura işlemlerinizi mail alma ve gönderme kolaylığında
+                        gerçekleştirebilirsiniz...
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="font-family: 'Poppins' ">
+                            <div class="column" id="main" style="text-align:left; color:black">
+
+                                <h4 class="modal-title" id="exampleModalLabel" style="color:#000000">
+                                    <i class="bi bi-printer"
+                                       alt="Arşivleme Efatura" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <strong>Görüntüleme </strong> &<strong> Yazdırma</strong>
+                                </h4>
+                                <br>
+                                <span style="color:#ff5821"><i class="bi bi-caret-right-fill"></i></span> Zaman ve mekan sınırı
+                                olmadan, toplu olarak görüntüleyebilir ve yazdırabilirsiniz.
+
+                                <br>
+                                <button type="button" class="btn btn-outline-danger " data-bs-dismiss="modal"
+                                        style="border-radius: 30px; font-family:'Poppins';">
+                                    Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                <div class="icon-box">
+                    <div class="icon">
+                        <a href="#exampleModal8">
+                            <i class="bi bi-printer" alt="Arşivleme Efatura"
+                               data-bs-toggle="modal" data-bs-target="#exampleModal8"></i>
+                        </a>
+                    </div>
+                    <h4 class="title"><a> Görüntüleme & Yazdırma</a></h4>
+                    <p class="description">
+                        ✦Zaman ve mekan sınırı olmadan, toplu olarak görüntüleyebilir ve
+                        yazdırabilirsiniz...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End Services Section -->
